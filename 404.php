@@ -11,8 +11,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<?php if ( is_active_sidebar( 'sidebar-' ) ) :
-				dynamic_sidebar( 'sidebar-' );
+			<?php if ( is_active_sidebar( 'sidebar-not-found' ) ) :
+				dynamic_sidebar( 'sidebar-not-found' );
 			else : ?>
 			<section class="error-404 not-found">
 				<div class="singular-content-wrap">
